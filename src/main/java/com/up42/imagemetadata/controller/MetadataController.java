@@ -18,8 +18,8 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-public class FeatureController {
-    Logger logger = LoggerFactory.getLogger(FeatureController.class);
+public class MetadataController {
+    Logger logger = LoggerFactory.getLogger(MetadataController.class);
 
     private final ImageService imageService;
 

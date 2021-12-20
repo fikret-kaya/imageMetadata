@@ -1,7 +1,6 @@
 package com.up42.imagemetadata.service.impl;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.up42.imagemetadata.controller.FeatureController;
 import com.up42.imagemetadata.model.Feature;
 import com.up42.imagemetadata.model.ImageMetadata;
 import com.up42.imagemetadata.service.ImageService;
