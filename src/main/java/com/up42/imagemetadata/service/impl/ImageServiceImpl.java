@@ -37,7 +37,8 @@ public class ImageServiceImpl implements ImageService {
         JSONParser jsonParser = new JSONParser();
 
         try {
-            JSONArray jsonArray = (JSONArray) jsonParser.parse(new FileReader("source-data.json"));
+            JSONArray jsonArray = (JSONArray) jsonParser.parse(
+                    new FileReader("data/source-data.json"));
 
             for (int i = 0; i < jsonArray.size(); i++) {
                 JSONObject jsonObject = (JSONObject) jsonArray.get(i);

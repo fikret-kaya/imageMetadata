@@ -1,0 +1,14 @@
+Docker file added in order to run the application. Following commands can be used to run the app:
+	-> docker build -t im .
+	-> docker run -d -p 8080:8080 im
+
+
+The api provides following 3 endpoints:
+	-> /features (get) 						: returns the list of feature
+	-> /features/{id} (get)					: fetch feature details with given id
+	-> /features/{id}/quicklook (get)		: returns decoded image for given id
+
+
+Notes: 
+	-> Tests and example postman requests provided,
+	-> OpenAPI is included, following url can be used: "http://localhost:8080/v3/api-docs" or "http://localhost:8080/swagger-ui/index.html"
